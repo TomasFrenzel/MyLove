@@ -1,0 +1,19 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+.container-fluid {
+    height: 50px; /* Height for navbar */
+}
+.content {
+    height: calc(100% - 50px - 70px); /* Adjust for navbar and footer height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer {
+    height: 70px; /* Height for footer */
+}
